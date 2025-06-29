@@ -38,16 +38,10 @@ To predict the complex dynamics of gold prices and compare the forecasting accur
 
 ---
 
-## Results
+## Conclusion
 
-| Model                     | R² Score | SMAPE (%) |
-|--------------------------|----------|------------|
-| Holt-Winters             | -5.31    | *NaN*      |
-| Ensemble (Gradient Boosting) | -1.11    | **19.82**   |
+> The Ensemble model demonstrated a more reliable performance based on SMAPE, even in volatile price periods.
 
-> **Conclusion**: The Ensemble model demonstrated a more reliable performance based on SMAPE, even in volatile price periods.
-
----
 
 ## Key Features Used (Top 10)
 - lag_1
